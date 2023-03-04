@@ -1,0 +1,97 @@
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav-ul{
+  padding: 7px;
+  margin: 0px;
+  background-color: black;
+}
+
+.nav-right{
+  text-align: right;
+}
+
+.nav-ul li a{
+  padding: 5px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+.register, .contact{
+  margin-left: 30%;
+}
+
+.invalidInput{
+  color: red;
+  margin-top: -20px;
+  margin-left: 25px;
+  display: block;
+}
+
+.login{
+  margin-left: 30%;
+}
+
+.inputBox{
+  display: block;
+  padding: 7px;
+  margin: 25px;
+  width: 300px;
+  border: 1px solid black;
+  font-size: larger;
+}
+
+.appButton {
+  margin: 25px;
+  padding: 7px;
+  width: 130px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: larger;
+}
+
+.contactList{
+  text-align: center;
+  margin-top: 70px;
+}
+
+.contactList ul li{
+  display: inline-block;
+  border: 1px solid black;
+  width: 250px;
+  font-size: larger;
+  padding: 5px;
+  background-color: ghostwhite;
+}
+
+.contactList ul{
+  margin: 0;
+}
+
+.searchInput{
+  width: 400px;
+  border: 1px solid black;
+  border-radius: 25px;
+  margin: 20px;
+  padding: 10px;
+  font-size: large;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+
